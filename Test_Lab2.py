@@ -2,10 +2,19 @@ import Lab2
 
 
 def test_find_min_max():
-    assert(Lab2.calc_min_max_temperature(5, 10, 15))
+    result=[]
+    user_input = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ]
+    result = [ 1 , 10 ]
+    assert(result == Lab2.calc_min_max_temperature(user_input))
 
 def test_calc_average():
-    assert(Lab2.calc_average_temperature(5, 10, 15))
+    result = []
+    user_input =  [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ]
+    result = [ 5.5 ]
+    assert(Lab2.calc_average_temperature(user_input))
 
 def test_calc_median_temperature():
-    assert(Lab2.calc_median_temperature(5, 10, 15))
+    result = []
+    user_input =  [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ]
+    result = [ 5.5 ]
+    assert(Lab2.calc_median_temperature(user_input))
