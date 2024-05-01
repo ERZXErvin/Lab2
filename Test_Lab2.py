@@ -11,10 +11,10 @@ def test_calc_average():
     result = []
     user_input =  [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ]
     result = [ 5.5 ]
-    assert(Lab2.calc_average_temperature(user_input))
+    assert(result == Lab2.calc_average_temperature(user_input))
 
 def test_calc_median_temperature():
     result = []
     user_input =  [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ]
     result = [ 5.5 ]
-    assert(Lab2.calc_median_temperature(user_input))
+    assert(result == Lab2.calc_median_temperature(user_input))
