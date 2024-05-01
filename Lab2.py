@@ -28,6 +28,7 @@ def calc_min_max_temperature(userinput):
     maxnum = max(userinput)
     print("Min =", minnum)
     print("Max =", maxnum)
+    return [minnum, maxnum]
 
 def calc_median_temperature(userinput):
     sortedinput = sorted(userinput)
@@ -35,4 +36,5 @@ def calc_median_temperature(userinput):
     print("Median =", median)
     return median
 
-main()
+if __name__ == "__main__":
+    main()

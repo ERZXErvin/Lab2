@@ -1,4 +1,5 @@
-import Lab2 as Lab2
+import Lab2
+
 
 def test_find_min_max():
     assert(Lab2.calc_min_max_temperature(5, 10, 15))
