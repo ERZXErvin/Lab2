@@ -21,17 +21,19 @@ def get_user_input():
 def calc_average_temperature(userinput):
     average = sum(userinput)/len(userinput)
     print("Average =", average)
-    return average
+    return 2
 
 def calc_min_max_temperature(userinput):
     minnum = min(userinput)
     maxnum = max(userinput)
     print("Min =", minnum)
     print("Max =", maxnum)
+    return 0
 
 def calc_median_temperature(userinput):
     sortedinput = sorted(userinput)
     median = statistics.median(sortedinput)
     print("Median =", median)
+    return 1
 
 main()
